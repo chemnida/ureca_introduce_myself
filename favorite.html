@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chaemin_intro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EAECCC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff; /* 메인 박스 배경색 */
+            max-width: 800px; /* 박스의 너비 */
+            width: 100%;
+            border-radius: 10px; /* 박스 둥근 모서리 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #C3E2C2;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(179, 80, 80, 0.1);
+            border-radius: 10px 10px 0 0; /* 상단 둥근 모서리 */
+            text-align: center; /* 가운데 정렬 */
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+            color: #2e1b1b;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 10px 0 0; /* 위쪽 간격 */
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            background-color: #eeafaf;
+            padding: 10px 15px;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .image-container {
+            flex: 1; /* 이미지가 화면의 절반 차지 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            max-width: 90%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .text-container {
+            flex: 1; /* 텍스트가 화면의 절반 차지 */
+            padding: 20px;
+        }
+
+        .text-container h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .text-container p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>안녕하십니까??</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">나!입니다</a></li>
+                    <li><a href="favorite.html"> 제가 좋아하는건요.. </a></li>
+                    <li><a href="puppy.html">내 가냐디</a></li>
+                    <li><a href="sns.html">부끄럽지만...</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="image-container">
+                <img src="카페.jpg" alt="취미이미지">
+            </div>
+            <div class="text-container">
+                <p>ESTP이고, 취미는 </p>
+                <p>칼바람, 예쁜 카페가기, 보드게임하기, 사진찍기</p>
+                <p>입니다...</p>
+                <p>최근에는 마크 + 귀여운 것에 빠졌습니다.</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
