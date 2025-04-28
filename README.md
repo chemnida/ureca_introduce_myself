@@ -1,7 +1,7 @@
 # ureca_introduce_myself
 [URECA] 간단 자기소개서 만들기 (html.css)
 
-##계획
+## 계획
 네비게이션 바 활용
 - 첫 내 이미지 + 이름 + 나이
 - 전공 + MBTI + 취미(좋아하는 것)
